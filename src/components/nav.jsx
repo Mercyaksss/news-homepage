@@ -33,7 +33,7 @@ function Nav() {
               alt="Close Icon"
               onClick={closeMenu}
             />
-            <ul>
+            <ul className='hover'>
               <li>Home</li>
               <li>New</li>
               <li>Popular</li>
@@ -43,7 +43,7 @@ function Nav() {
           </div>
         </div>
       )}
-      <ul>
+      <ul className='hover'>
         <li>Home</li>
         <li>New</li>
         <li>Popular</li>

@@ -81,7 +81,7 @@ nav {
           cursor: pointer;
           transition: color 0.3s ease-in-out;
 
-          &:hover {
+          .hover:hover {
             color: var(--Soft-red);
           }
         }
@@ -120,7 +120,7 @@ nav {
 }
 @media (max-width: 375px) {
   nav {
-    width: 345px;
+    width: 340px;
     margin: 0;
   }
 }
